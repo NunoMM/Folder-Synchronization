@@ -49,6 +49,13 @@ python sync_folders.py <source_folder> <replica_folder> <log_output_file> <sync_
 
 The program can also be directly executed through python, where it will use the default folders and files (contained in the project folder) and values, like synchronization interval, defined in the code.
 
+### Built-in Menu
+
+Once the program is running, you can acess a built-in by inputting `?` or `help`. In this menu where you can:
+
+  - **View** the source and replica folder paths, and interval timer by inputting `info`.
+  - **Exit** the program, stopping the execution, by inputting `exit`.
+
 ---
 
 ### 🧪 Tests
